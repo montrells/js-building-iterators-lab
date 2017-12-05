@@ -3,9 +3,10 @@
 function myMap(arr, callback) {
 
 //  CODE INSIDE HERE   //
-
+  for (var i = 0; i < arr.length; i++)
+    arr.forEach(callback, arr);
+    return arr;
 }
-
 /*
  Best if you don't code out here.
  If you want to check your code, use `index.js`!

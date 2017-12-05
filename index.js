@@ -10,6 +10,14 @@ var myReduce = require('./myReduce');
 var numArray = [0,1,10,100,1000];
 
 
+var input = ["a","b","c"];
+var output = myMap(input, function capitalize(v){
+    return v.toUpperCase();
+});
+console.log('Testing myMap')
+console.log("Expected:", ["A", "B", "C"], "Got:", output)
+
+
 /* myEach */
 
 //
